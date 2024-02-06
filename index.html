@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheatsheet</title>
+
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1>Heading One (1)</h1>
+        <h2>Heading Two (2)</h2>
+        <h3>Heading Three (3)</h3>
+        <h4>Heading Four (4)</h4>
+        <h5>Heading Five (5)</h5>
+        <h6>Heading Six (6)</h6>
+
+        <!-- Can create attributes like this: <h1 title="My Company"> About Us </h1> -->
+
+        <!-- Paragraphs -->
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis error, <em>veritatis blanditiis</em> saepe sunt rerum <strong>distinctio culpa</strong>, officia provident, iusto iure repellat impedit molestias nesciunt! Commodi impedit praesentium consequatur ut.
+            <!-- Random text made by just typing "lorem" -->
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <a href="https://google.com" target="_blank">Google</a> temporibus quibusdam blanditiis ipsa cumque adipisci provident itaque corporis explicabo. Reiciendis in distinctio impedit dolorum expedita harum dolor, laborum veniam aliquid velit?
+            <!-- If you don't want user to exit your website, use target to send them to that link in a diff tab (external site) -->
+        </p>
+
+        <!-- Lists -->
+        <ul>
+            <!-- Unordered list -->
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+
+        </ul>
+        <ol>
+            <!-- Ordered list -->
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+
+        </ol>
+
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>    <!-- "Table row" -->
+                    <th>Name</th>   <!-- "Table head" -->
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>        <!-- Random: to indent multiple rows: Ctrl + ] -->
+                <tr>
+                    <td>Claire Nocilo</td>
+                    <td>cnocilo9400@sdsu.edu</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Bay Max</td>
+                    <td>baymax2001@gmail.com</td>
+                    <td>201</td>
+                </tr>
+                <tr>
+                    <td>March 7th</td>
+                    <td>selfiepower@gmail.com</td>
+                    <td>19</td>
+                </tr>
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <!-- Can only build the look, not the actual functionality -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>    
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>    
+                <label>Email</label>
+                <input type="email" name="email">   <!-- Type "email" to verify email address -->
+            </div>
+            <br>
+            <div>    
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>    
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+        </form>
+
+        <input type="submit" name="submit" value="Submit">
+
+        <br>
+        <br>
+
+        <a href="C:\Users\cnoci\OneDrive\Pictures\Saved Pictures\musicgal.jpg" target="_blank">
+            <img src="C:\Users\cnoci\OneDrive\Pictures\Saved Pictures\musicgal.jpg"
+            alt="My Sample Image" width="500" height="400">
+            <!-- "img" is self closing -->
+            <!-- If image is in same folder as html tag, don't need path -->
+        </a>       <!-- Links to image or whatever you want really.. -->
+
+        <br>
+
+        <!-- Buttons -->
+        <button>Click me!</button>
+        <!-- Would need something like JavaScript to make it functional -->
+
+        <!-- Quotations -->
+        <blockquote cite="https://wikipedia.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam deleniti saepe quo harum id fugit exercitationem veritatis incidunt. Delectus animi modi accusamus, sapiente molestias qui neque reprehenderit esse ratione.
+        </blockquote>
+
+        <p> The <abbr title="World Wide Web">WWW</abbr> is awesome!</p>
+
+        <p><cite>HTML Crash Course</cite> by Brad Traversy</p>
+
+        <!-- <div style="margin-top:500px"></div> -->
+
+    </body>
+
+</html>
